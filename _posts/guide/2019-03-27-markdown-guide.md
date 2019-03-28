@@ -1,11 +1,11 @@
 ---
 layout: post
-title: test
+title: Markdown Guide
 ---
 
 Text can be **bold**, _italic_, or ~~strikethrough~~.
 
-[Link to another page](./another-page.html).
+[Link to another page]({{ site.baseurl }}{% post_url /guide/2019-01-01-github-pages %}).
 
 There should be whitespace between paragraphs.
 
@@ -37,7 +37,7 @@ GitHubPages::Dependencies.gems.each do |gem, version|
   s.add_dependency(gem, "= #{version}")
 end
 ```
-
+<!--more-->
 #### Header 4
 
 *   This is an unordered list following a header.
@@ -95,11 +95,17 @@ end
 
 ### Small image
 
-![Octocat](https://assets-cdn.github.com/images/icons/emoji/octocat.png)
+![Octocat](https://github.githubassets.com/images/spinners/octocat-spinner-64.gif)
 
 ### Large image
 
 ![Branching](https://guides.github.com/activities/hello-world/branching.png)
+
+### Video
+
+<div style="position:relative;width:100%;padding-top: 75%;">
+<iframe src="//player.bilibili.com/player.html?aid=20435311&cid=33406307&page=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true" style="top:0;left:0;width:100%;height:100%;position:absolute;"> </iframe>
+</div><br>
 
 
 ### Definition lists can be used with HTML syntax.
